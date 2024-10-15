@@ -21,7 +21,7 @@ major = st.text_input("Enter your major:")
 if st.button("Submit"):
     # Display the inputted information
     st.write(f"Hello, {name}! You are {age} years old.")
-    st.write(f"Your major is:{major}")
+    st.write(f"Your major is: {major}")
 
 # Optional: Add a reset button
 if st.button("Reset"):
