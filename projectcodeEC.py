@@ -6,11 +6,11 @@ import matplotlib.pyplot as plt
 st.title("CSV Data Visualization App")
 
 # File uploader for CSV
-uploaded_file = st.file_uploader("NM_24_NO2.xlsx", type=["xlsx"])
+uploaded_file = st.file_uploader("NM_24_NO2.csv", type=["csv"])
 
 if uploaded_file is not None:
     # Read the CSV file
-    data = pd.read_excel(uploaded_file)
+    data = pd.read_csv(uploaded_file)
     st.write("### Data Preview")
     st.dataframe(data)
 
