@@ -6,16 +6,16 @@ import matplotlib.pyplot as plt
 st.title("CSV Data Visualization App")
 
 # File uploader for CSV
-uploaded_file = st.file_uploader("ratings.csv", type=["csv"])
+uploaded_file = st.file_uploader("NM_24_NO2.xlsx", type=["xlsx"])
 
 if uploaded_file is not None:
     # Read the CSV file
-    data = pd.read_csv(uploaded_file)
+    data = pd.read_excel(uploaded_file)
     st.write("### Data Preview")
     st.dataframe(data)
 
     # Dropdown for selecting columns
-    columns = data.columns.tolist()
+    columns = data.columns.tolist(1,5,8,9) #date,1hour max count,Local site name,daily obs count
     x_column = st.selectbox("Select X-axis column", columns)
     y_column = st.selectbox("Select Y-axis column", columns)
 
