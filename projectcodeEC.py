@@ -15,7 +15,7 @@ if uploaded_file is not None:
     st.dataframe(data)
 
     # Dropdown for selecting columns
-    columns = data.columns[[0, 4, 8]].tolist() #date,1hour max count, daily obs count
+    columns = data.columns[[0, 4, 8, 10]].tolist() #date,1hour max count, daily obs count
     x_column = st.selectbox("Select X-axis column", columns)
     y_column = st.selectbox("Select Y-axis column", columns)
 
