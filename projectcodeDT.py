@@ -15,7 +15,7 @@ if uploaded_file is not None:
     st.dataframe(data)
 
     # Dropdown for selecting columns
-    columns = data.columns.tolist()
+    columns = data.columns[[2,4,6,7,8,9]].tolist()
     x_column = st.selectbox("Select X-axis column", columns)
     y_column = st.selectbox("Select Y-axis column", columns)
 
