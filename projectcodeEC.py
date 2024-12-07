@@ -6,11 +6,8 @@ import matplotlib.pyplot as plt
 st.title("CSV Data Visualization App")
 
 # File uploader for CSV
-@st.cache
-def load_data():
-    return pd.read_csv('NM_24_N02.csv')
+uploaded_file = st.file_uploader('NM_24_NO2.csv', type=["csv"])
 
-filtered_data_df = load_data()
 
 if uploaded_file is not None:
     # Read the CSV file
