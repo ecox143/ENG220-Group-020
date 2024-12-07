@@ -5,3 +5,8 @@ Our group is the "integration" group.
 I took the NM 24 NO2 data that Gyan shared with me and used the columns for date, daily max 1 hour reading, daily AQI value and daily observed count.
 Streamlit link - https://eng220-class-group-20-ijdxnhwmzsyc6pbryadtjs.streamlit.app/
 The graph did not work out the way I was hoping, but I did a separate code, getting a graph of just south valley data along with a montlhy average to show trends which I will show in my report.  -EC  
+
+
+I used the data provided to me by Group 8 to create my Dashboard. In the Dashboard you can choose between the following states: MN, WI, MI, MT, and ND, to view various factors to air quality depending on the region. In the Dashboard you can choose which county you would like to view the data and if you would like it in a Bar Graph or Line Graph. The link to my Stremlit app is:
+https://finalcodegppy-vumfdtkohha8hzlipqdypx.streamlit.app/
+-GP
