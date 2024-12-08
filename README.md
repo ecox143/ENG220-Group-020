@@ -12,6 +12,6 @@ https://finalcodegppy-vumfdtkohha8hzlipqdypx.streamlit.app/
 -GP
 
 
-I used one of the datas provided by group 12 gun violence data to create a dashboard. This data was specifically gun violence in New Mexico. The dashboard I created shows the exact date or cities you would like to view. Based on the data, you can choose between victims injured or killed and suspects injured or killed. The data shows up nicely on a bar graph. The link to my steamlit app would be:
+I used one of the datas provided by group 12 gun violence data to create a dashboard. This data was specifically gun violence in New Mexico. The dashboard I created shows the exact date or cities you would like to view. Based on the data, you can choose between victims injured and suspects injured, killed, or arrested. The data shows up nicely on a bar graph. The link to my steamlit app would be:
 https://untitled2py-2zn5bldhgddpnjthbjxykd.streamlit.app/
 -DT
